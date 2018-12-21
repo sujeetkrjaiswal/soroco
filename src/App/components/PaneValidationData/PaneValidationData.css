@@ -1,0 +1,68 @@
+.validation-tabs {
+  height: 40px;
+  display: flex;
+}
+
+.validation-tab {
+  min-width: 50px;
+  max-width: 300px;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+  position: relative;
+  height: 40px;
+  font-size: 12px;
+  padding: 10px 20px 5px 10px;
+  cursor: pointer;
+}
+.validation-tab.active {
+  background: #f7f7f7;
+  border-top: 2px solid #1597ff;
+  box-shadow: 2px 0px 3px #ccc;
+}
+.validation-tab-subtext {
+  font-size: 11px;
+  color: #aaa;
+}
+.validation-tab-close {
+  position: absolute;
+  right: 4px;
+  top: 35%;
+  color: #8c8c8b;
+  font-size: 14px;
+}
+.validation-more-tab-text {
+  white-space: nowrap;
+}
+.validation-tab-more-dropdown {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 5px #ddd;
+  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.validation-add-transaction-tab {
+  font-size: 14px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.add-icon {
+  color: #1597ff;
+  left: 5px;
+  right: auto;
+}
+.tab-details {
+  background: #f7f7f7;
+  box-shadow: 1px 3px 5px #ccc;
+  height: 460px;
+}
+.submit-btn-container {
+  text-align: right;
+}
+.submit-btn {
+  background-color: #8bc34a;
+}
