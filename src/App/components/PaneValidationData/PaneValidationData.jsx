@@ -29,14 +29,6 @@ export default class PaneValidationData extends PureComponent {
 
   componentDidMount() {
     window.addEventListener("resize", this.updateDimensions.bind(this));
-    this.createNewTab({
-      name: "Abhishek Govula",
-      login: "abhishek"
-    });
-    this.createNewTab({
-      name: "Sujeet Jaiswal",
-      login: "sujeetkrjaiswal"
-    });
   }
   componentWillUnmount() {
     window.removeEventListener("resize", this.updateDimensions.bind(this));
