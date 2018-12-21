@@ -18,7 +18,7 @@ export default class PaneValidationData extends PureComponent {
     this.createTabRef = React.createRef();
     this.state = {
       tabs: [],
-      selectedTab: "sujeetkrjaiswal",
+      selectedTab: "",
       tabsToShow: 0,
       showMore: false
     };
